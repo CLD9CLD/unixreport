@@ -1,0 +1,7 @@
+name: UnixReport
+version: '${project.version}'
+main: unixdev.unixreport.UnixReport
+commands:
+  unixreport:
+    aliases: [report, репорт]
+    description: Отправить репорт
